@@ -74,7 +74,8 @@ export const ContactPage=()=>{
     return (
         <div className="contact-container container-fluid " id="contact" >
             <Container className="contact-container-part-a g-0">
-              <Row>
+            {/* <Row className="row flex-column-reverse flex-md-row"> */}
+            <Row>
                 <Col className="left_col">
                 <div className="heading_div">
                 <p className="reqst_heading">Request A Free Franchise Consultation</p>

@@ -2,7 +2,7 @@
 .contact-container {
 background-color: #fdb777;
 height: 100%;
-padding: 5rem 0px 7rem 0px;
+padding: 6rem 10px 7rem 10px;
 gap: 0;
 margin: 0;
 }
@@ -45,6 +45,7 @@ align-items: baseline;
   position: absolute;
   left: -5px;
   margin-top: -35px;
+  max-width: 100%;
   
 } 
 .contact_form{
@@ -70,7 +71,7 @@ font-weight: 600;
 }
 .form_inputs{
   padding: 5px;
- width: 200px;
+ width: 220px;
   height: 30px;
   border: none;
   border-radius: 5px;
@@ -90,7 +91,19 @@ font-weight: 600;
 background-color: #fd9877;
 color: #ffffff;
 }
-  
+@media screen and (max-width: 480px) {
+.img44{
+    position: relative;
+    left: -10px;
+   top:462px;
+   height: auto;
+   width: 25%;
+    
+  } 
+  .contact_form{
+margin-top: 15px;
+  }
+}
 
   
  
