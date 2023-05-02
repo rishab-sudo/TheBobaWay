@@ -1,0 +1,135 @@
+.new-section-heading{
+    text-align:center;
+    font-size:3vw;
+    font-weight: 600;
+
+}
+.product-container {
+    display: grid;
+justify-content: center;    
+    grid-template-columns: repeat(4, 18vw);
+    grid-template-rows: repeat(3, 22vh);
+    gap: 10px;
+ 
+   max-width: 90%;
+   margin: auto;
+   grid-template-areas:
+        " a a b b"
+        "a a d e"
+        "c c d e";
+}
+.product-container>div {
+    /* background-color: grey; */
+    font-weight: bold;
+    color: white;
+    
+
+}
+.product-container>div:nth-child(1) {
+    grid-area: a;
+    /* background-color: blueviolet; */
+}
+
+.product-container>div:nth-child(2) {
+    grid-area: b;
+    /* background-color: orange; */
+}
+
+.product-container>div:nth-child(5) {
+    grid-area: e;
+    /* background-color: yellow; */
+}
+.product-container>div:nth-child(3) {
+    grid-area: c;
+    /* background-color: skyblue; */
+}
+
+.product-container>div:nth-child(4) {
+    grid-area: d;
+    /* background-color: teal; */
+} 
+
+
+@media all and (min-width:100px)  and (max-width: 300px) {
+    /* For mobile screens */
+    .new-section-heading{
+        margin-top: 2vh;
+        text-align:center;
+        font-size:6vw;
+        font-weight: 600;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(1, 10vw);
+        grid-template-rows: repeat(5, 25vh);
+        gap: 20px;
+       width: 99vw;
+        grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d"
+            "e";
+    }
+
+    .product-container>div {
+        /* background-color: grey; */
+        font-weight: bold;
+        color: white;
+
+    
+    }
+}
+
+
+@media all and (min-width:301px)  and (max-width: 700px) {
+    /* For mobile screens */
+
+    .new-section-heading{
+        margin-top: 2vh;
+        text-align:center;
+        font-size:6vw;
+        font-weight: 600;
+    }
+
+
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 60vw);
+        gap: 15px;
+        padding: 5px;
+        grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d"
+            "e";
+    }
+
+    
+}
+
+
+@media all and (min-width:1361px)  and (max-width: 2600px) {
+    .product-container {
+        display: grid;
+        
+        grid-template-columns: repeat(4, 15vw);
+        grid-template-rows: repeat(3, 20vh);
+        gap: 10px;
+        
+       max-width: 90%;
+       margin: auto;
+       grid-template-areas:
+            " a a b b"
+            "a a d e"
+            "c c d e";
+    }
+    .product-container>div {
+        /* background-color: grey; */
+        font-weight: bold;
+        
+        
+    
+    }
+}

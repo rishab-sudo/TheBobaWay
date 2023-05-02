@@ -1,0 +1,87 @@
+.home-part-1-container {
+  font-weight: bold;
+  color: white;
+  border-bottom-right-radius: 400px 100px;
+  background: linear-gradient(0.25turn, #fdb777, #FE611D);
+  max-height: 35vh;
+padding-bottom: 2rem;
+width: 100%;
+  /* padding-top: 120px; */
+}
+.left_col1{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  max-height: 35vh;
+ 
+}
+.right_col1{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  max-height: 35vh;
+}
+.home-part-1-text{
+font-size: 3.2rem;
+font-family: 'Stoke';
+font-style: normal;
+font-weight: 400;
+line-height: 35px;
+}
+.text-bobaway{
+  font-weight: bold;
+}
+.home-part-1-img {
+ max-height: 45vh;
+}
+/* home-part2-css */
+.home-page-part-2{
+  height: auto;
+ padding: 8rem 0px 0rem 0px;
+ max-width: 100%;
+}
+.left_col2{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  }
+.right_col2{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.popular-boba-img{
+  max-height: 250px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.popular-boba-text{
+  max-width: 65%;
+  text-align: center;
+  
+}
+.four-type-boba-div{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 0px;
+  font-weight: bold;
+  font-family: 'Poppins';
+font-style: normal;
+font-size: 1rem;
+text-align: center;
+}
+.bobatype_img{
+  height: 50%;
+  width: auto;
+}
+.boba-type-text{
+  width: auto;
+}
+@media screen and (max-width: 480px) {
+  .home-part-1-text{
+    font-size:14px;
+   line-height: 20px;
+    font-weight: 400;
+    }
+}

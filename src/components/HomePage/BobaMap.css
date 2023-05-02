@@ -1,0 +1,13 @@
+.boba-map-ifranme{ width:100%;
+padding: 25px;
+border-radius: 10px;
+     
+        margin: auto; 
+        height:450px; 
+}
+@media all and (min-width:300px)  and (max-width: 767px){
+    .boba-map-ifranme{ width:100vw; 
+        height:35vh; 
+}
+
+}
